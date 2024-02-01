@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+path = "src/nande/version.py"
+
+
+[project]
+dynamic = ["version"]
+name = "nande"
+dependencies = []
+requires-python = ">=3.10"
+authors = [{name = "Taiga Ishida", email = "ishidataiga@gmail.com"}]
+description = "nande nande nande"
+readme = "README.md"
+keywords = ["nande"]
+
+
